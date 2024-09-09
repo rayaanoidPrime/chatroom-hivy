@@ -1,0 +1,32 @@
+{
+  "name": "hivy",
+  "version": "1.0.0",
+  "description": "Realtime messenger powered by socket.io",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm run -r dev",
+    "build": "pnpm run -r build",
+    "lint": "pnpm run -r lint",
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "socket.io",
+    "react",
+    "node.js"
+  ],
+  "author": "Rayaan Ghosh",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^8.0.3",
+    "typescript": "^5.5.4"
+  },
+  "workspaces": [
+    "web",
+    "backend"
+  ]
+}
