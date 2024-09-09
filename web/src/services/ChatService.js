@@ -1,4 +1,5 @@
 import io from "socket.io-client";
+import { config } from "../config";
 
 class ChatService {
   constructor() {
@@ -10,7 +11,7 @@ class ChatService {
 
   connect(token) {
     const sessionId = localStorage.getItem("sessionId");
-    this.socket = io(import.meta.env.VITE_BACKEND_URL, {
+    this.socket = io(config.backendUrl, {
       auth: { token, sessionId },
     });
 
