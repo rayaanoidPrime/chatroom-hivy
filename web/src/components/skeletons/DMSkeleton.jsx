@@ -1,4 +1,4 @@
-export default function HomePageSkeleton() {
+export default function DMskeleton() {
   // TODO
   return (
     <div>

@@ -1,4 +1,4 @@
-import { DMSkeleton } from "@/components/skeletons/DMSkeleton"; // TODO
+import DMSkeleton from "@/components/skeletons/DMSkeleton"; // TODO
 import { ChatHeader } from "@/components/ChatHeader"; //TODO
 import { MessageContainer } from "@/components/MessageContainer"; // TODO
 import { fetchUser } from "@/features/user/user.service"; // TODO
